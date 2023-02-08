@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:test_animation/animatedaliign.dart';
 import 'package:test_animation/animatedlist.dart';
+import 'package:test_animation/animationbuider.dart';
+import 'package:test_animation/animationsizeup.dart';
 
 import 'animatecrossfate.dart';
 
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Animatecrossimg(),
+      home: Sizeuptest(),
     );
   }
 }
